@@ -4,5 +4,6 @@
   "documentation": "https://github.com/ddshd/govee-local-api",
   "issue_tracker": "https://github.com/ddshd/govee-local-apiissues",
   "name": "DDSHD Govee",
-  "version": "69.0.1"
+  "version": "69.0.1",
+  "integration_type": "device"
 }
