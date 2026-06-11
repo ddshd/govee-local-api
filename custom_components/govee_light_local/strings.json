@@ -1,0 +1,38 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Govee Light Local",
+        "description": "Configure the Govee Light Local integration to control Govee devices on your local network.",
+        "data": {
+          "discovery": "Enable automatic device discovery",
+          "device_ips": "Manual device IP addresses (one per line or comma-separated)",
+          "listening_port": "Listening port"
+        },
+        "data_description": {
+          "device_ips": "Enter IP addresses for devices that do not respond to multicast discovery.",
+          "listening_port": "UDP port the integration listens on for device responses (default: 4002)."
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "[%key:common::config_flow::abort::single_instance_allowed%]"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Govee Light Local Options",
+        "data": {
+          "discovery": "Enable automatic device discovery",
+          "device_ips": "Manual device IP addresses (one per line or comma-separated)",
+          "listening_port": "Listening port"
+        },
+        "data_description": {
+          "device_ips": "Enter IP addresses for devices that do not respond to multicast discovery.",
+          "listening_port": "UDP port the integration listens on for device responses (default: 4002)."
+        }
+      }
+    }
+  }
+}
